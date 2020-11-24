@@ -2,6 +2,16 @@ package insurance;
 
 import insuredValue.InsuredValue;
 
+/*
+ *  This is Health class that extends Insurance class.
+ *  It has three constructor.
+ *  and there is a calculatePolicyCharge method to calculate
+ *  charge for health insurance.
+ 
+ * @author  Serdar Sertgöz  260201030
+ * @author  Ertuðrul Demir  260201059
+ */
+
 public class Health extends Insurance{
 	
 	// Constructor for random fixed fee between 1000 and 3000
@@ -25,6 +35,7 @@ public class Health extends Insurance{
 		}
 	}
 	
+	@Override
 	public String toString() {
 		return super.toString();
 	}

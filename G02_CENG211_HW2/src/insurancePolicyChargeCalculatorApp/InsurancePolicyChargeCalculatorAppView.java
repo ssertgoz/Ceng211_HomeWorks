@@ -1,6 +1,5 @@
 package insurancePolicyChargeCalculatorApp;
 
-
 import insurance.Health;
 import insurance.Household;
 import insurance.Insurance;
@@ -8,12 +7,20 @@ import insurance.Traffic;
 import insuredValue.InsuredValue;
 import policyRecord.PolicyRecord;
 
+/**   
+ * This is our InsurancePolicyChargeCalculatorAppView class.
+ * It has some methods to help to main program to show datas 
+ * 
+ * @author  Serdar Sertgöz  260201030
+ * @author  Ertuðrul Demir  260201059
+ */
+
 public class InsurancePolicyChargeCalculatorAppView {
 	
 	private PolicyRecord pr;
 	
 	public  InsurancePolicyChargeCalculatorAppView () {
-		pr = new PolicyRecord();
+		pr = new PolicyRecord(); // we can use all lists 
 	}
 	
 	// display all work places on the screen

@@ -1,5 +1,14 @@
 package insuredValue;
 
+/*
+ *  This is InsuredValue base class.
+ *  It has three constructor, getters and setters
+ *  and there is an abstract calculateRiskFactor
+ *  
+ * @author  Serdar Sertgöz  260201030
+ * @author  Ertuðrul Demir  260201059
+ */
+
 public abstract class InsuredValue {
 	private String insuranceNumber;
 	private int yearOfInsurance;
@@ -47,8 +56,6 @@ public abstract class InsuredValue {
 	public String toString() {
 		return String.format("insurance number : %s  ----  Year of insurance : %d", getInsuranceNumber(),getYearOfInsurance());
 	}
-	
-	
 	
 	public abstract double calculateRiskFactor();
 }

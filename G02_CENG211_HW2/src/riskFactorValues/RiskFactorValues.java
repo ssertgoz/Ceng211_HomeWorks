@@ -1,9 +1,19 @@
 package riskFactorValues;
 
-public final class RiskFactorValues {
+/*
+ *  This is RiskFactorValues class that implements RiskFactorValueIF.
+ *  It has no constructor, getters and setters
+ *  there are only some methods to get
+ *  risk factor value according to datas
+ *  
+ * @author  Serdar Sertgöz  260201030
+ * @author  Ertuðrul Demir  260201059
+ */
+
+public final class RiskFactorValues implements RiskFactorValueIF{
 	
-	
-	public double getPremisesCityRiskFactorValue(String city) {
+	 
+	public  double getPremisesCityRiskFactorValue(String city) {
 		double riskFactorValue = 0;	
 		switch (city) {
 		case "Izmir":

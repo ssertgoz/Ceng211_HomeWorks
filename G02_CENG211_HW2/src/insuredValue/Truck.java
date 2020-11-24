@@ -2,6 +2,16 @@ package insuredValue;
 
 import riskFactorValues.RiskFactorValues;
 
+/*
+ *  This is Truck class that extends Vehicle class.
+ *  It has two constructor, getters and setters
+ *  and there is a calculateRiskFactor method to calculate
+ *  risk factor according to risk factor values.
+ *  
+ * @author  Serdar Sertgöz  260201030
+ * @author  Ertuðrul Demir  260201059
+ */
+
 public class Truck extends Vehicle {
 	
 	private String typeOfTruckBed;
@@ -34,6 +44,7 @@ public class Truck extends Vehicle {
 		this.typeOfTruckBed = typeOfTruckBed;
 	}
 	
+	@Override
 	public String toString() {
 		return "Insured value : Truck " + super.toString();
 	}

@@ -3,9 +3,9 @@ package insurance;
 import insuredValue.InsuredValue;
 
 /**   
- * This is our Insurance class where has the main method.
- * So program starts from here and creates an InsurancePolicyChargeCalculatorAppView class 
- * then get user input to to show the policy charge lists
+ * This is our Insurance class. It  has the fixed fee.
+ * It is also an abstract class due to include abstract calculatePolicyCharge method 
+ * It has also overridden toString Method
  * 
  * @author  Serdar Sertgöz  260201030
  * @author  Ertuðrul Demir  260201059
@@ -37,6 +37,7 @@ public abstract class Insurance {
 		return "The policy charge of ";
 	}
 	
+	// abstract method
 	public abstract double calculatePolicyCharge(InsuredValue insuredValue);
 	
 	

@@ -2,6 +2,16 @@ package insuredValue;
 
 import riskFactorValues.RiskFactorValues;
 
+/*
+ *  This is Automobile class that extends Vehicle class.
+ *  It has two constructor, getters and setters
+ *  and there is a calculateRiskFactor method to calculate
+ *  risk factor according to risk factor values.
+ *  
+ * @author  Serdar Sertgöz  260201030
+ * @author  Ertuðrul Demir  260201059
+ */
+
 public class Automobile extends Vehicle {
 
 	private String typeOfRoof;

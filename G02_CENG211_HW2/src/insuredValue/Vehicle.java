@@ -1,5 +1,13 @@
 package insuredValue;
 
+/*
+*  This is Vehicle class that extends InsuredValue class.
+*  It has two constructor. getters, setters.
+* 
+* @author  Serdar Sertgöz  260201030
+* @author  Ertuðrul Demir  260201059
+*/
+
 public abstract class Vehicle extends InsuredValue {
 	private String plateCity;
 	private double engineVolume;
@@ -58,6 +66,7 @@ public abstract class Vehicle extends InsuredValue {
 		this.fuelTankVolume = fuelTankVolume;
 	}
 	
+	@Override
 	public String toString() {
 		return super.toString();
 	}

@@ -2,6 +2,16 @@ package insuredValue;
 
 import riskFactorValues.RiskFactorValues;
 
+/*
+ *  This is Workplace class that extends Premises class.
+ *  It has two constructor, getters and setters
+ *  and there is a calculateRiskFactor method to calculate
+ *  risk factor according to risk factor values.
+ *  
+ * @author  Serdar Sertgöz  260201030
+ * @author  Ertuðrul Demir  260201059
+ */
+
 public class Workplace extends Premises {
 	
 	private int annualRevenue;
