@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\ASUS\Desktop\okul\Ceng211 HomeWorks\Homeworks_git\Ceng211_HomeWorks\.metadata\.plugins\org.eclipse.jdt.core
+113558702.index
