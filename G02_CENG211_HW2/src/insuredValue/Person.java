@@ -2,6 +2,16 @@ package insuredValue;
 
 import riskFactorValues.RiskFactorValues;
 
+/*
+ *  This is Person class that extends InsuredValue class.
+ *  It has two constructor.
+ *  and there is a calculateRiskFactor method to calculate
+ *  risk factor according to risk factor values.
+ *  
+ * @author  Serdar Sertgöz  260201030
+ * @author  Ertuðrul Demir  260201059
+ */
+
 public class Person extends InsuredValue {
 	
 	private String residenceCity;
@@ -73,6 +83,7 @@ public class Person extends InsuredValue {
 		this.typeOfIllness = typeOfIllness;
 	}
 	
+	@Override
 	public String toString() {
 		return "Insured value : Person " + super.toString();
 	}

@@ -2,6 +2,16 @@ package insuredValue;
 
 import riskFactorValues.RiskFactorValues;
 
+/*
+ *  This is Housing class that extends Premises class.
+ *  It has two constructor, getters and setters
+ *  and there is a calculateRiskFactor method to calculate
+ *  risk factor according to risk factor values.
+ *  
+ * @author  Serdar Sertgöz  260201030
+ * @author  Ertuðrul Demir  260201059
+ */
+
 public class Housing extends Premises{
 
 	private String residentSituation;
@@ -40,6 +50,7 @@ public class Housing extends Premises{
 		RiskFactorValues rfv = new RiskFactorValues(); // Help us to get risk factor values
 		double riskFactor = -1;
 		if (initialized) {
+			// we made three part to keep line short
 			riskFactor = rfv.getPremisesCityRiskFactorValue(getPremisesCity())*rfv.getNumberOfFloorsRiskFactorValue(getNumberOfFloors());
 			riskFactor *= rfv.getYearOfConstructionRiskFactorValue(getYearOfConstruction())*rfv.getTypeOfConstructionRiskFactorValue(getTypeOfConstruction());
 			riskFactor = riskFactor*getSurfaceArea()/rfv.getResidentSituationRiskFactorValue(getResidentSituation());

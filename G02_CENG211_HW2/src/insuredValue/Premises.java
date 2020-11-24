@@ -1,5 +1,14 @@
 package insuredValue;
 
+
+/*
+*  This is Premises class that extends InsuredValue class.
+*  It has two constructor and getters, setters
+*  
+* @author  Serdar Sertgöz  260201030
+* @author  Ertuðrul Demir  260201059
+*/
+
 public abstract class Premises extends InsuredValue {
 	private String premisesCity;
 	private int numberOfFloors;
@@ -58,6 +67,7 @@ public abstract class Premises extends InsuredValue {
 		this.surfaceArea = surfaceArea;
 	}
 	
+	@Override
 	public String toString() {
 		return super.toString();
 	}

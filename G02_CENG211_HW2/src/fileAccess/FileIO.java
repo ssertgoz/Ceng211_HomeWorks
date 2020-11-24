@@ -13,6 +13,13 @@ import insuredValue.Person;
 import insuredValue.Truck;
 import insuredValue.Workplace;
 
+/*
+ *  This is FileIO class that reads file and add all InsuredValue Objects to an ArrayList
+ *  
+ * @author  Serdar Sertgöz  260201030
+ * @author  Ertuðrul Demir  260201059
+ */
+
 public class FileIO {
 	
 	

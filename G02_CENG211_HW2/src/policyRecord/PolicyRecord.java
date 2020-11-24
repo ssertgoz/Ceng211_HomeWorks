@@ -1,8 +1,6 @@
 package policyRecord;
 
-
 import java.util.ArrayList;
-
 import fileAccess.FileIO;
 import insuredValue.InsuredValue;
 import insuredValue.Person;
@@ -10,13 +8,24 @@ import insuredValue.Truck;
 import insuredValue.Workplace;
 import insuredValue.Automobile;
 import insuredValue.Housing;
+
+
+/*
+ *  This is PolicyRecord class that holds InsuredValue ArrayLists
+ *  It has one constructor
+ *  and there are other methods to get lists
+ *  
+ * @author  Serdar Sertgöz  260201030
+ * @author  Ertuðrul Demir  260201059
+ */
+
 public class PolicyRecord {
 	private FileIO fileIO;
 	private ArrayList<InsuredValue> insuredValueList;
 	public PolicyRecord() {
 		try {
 			fileIO = new FileIO();
-			insuredValueList = fileIO.getInsuredValueList();
+			insuredValueList = fileIO.getInsuredValueList(); // we get the lists from FileIO
 		} catch (Exception e) {
 			System.out.println(e);
 		}

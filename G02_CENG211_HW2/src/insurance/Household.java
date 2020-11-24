@@ -2,6 +2,17 @@ package insurance;
 
 import insuredValue.InsuredValue;
 
+
+/*
+ *  This is Household class that extends Insurance class.
+ *  It has three constructor.
+ *  and there is a calculatePolicyCharge method to calculate
+ *  charge for Household insurance.
+ *  
+ * @author  Serdar Sertgöz  260201030
+ * @author  Ertuðrul Demir  260201059
+ */
+
 public class Household extends Insurance{
 	
 	// Constructor for random fixed fee between 1000 and 3000
